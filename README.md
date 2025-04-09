@@ -53,7 +53,7 @@ v2: Particle Swarm exterior optimization / Nelder-Mead interior optimization
 Calculation codes ending in "a2" refer to a pure minimization procedure outlined
 in "notes/Task 5 - 65 parameters.pdf". Note, the exact dimensionality of the
 parameter-space varies from state to state, and is given by the formula:
-    no. parameters = r.*(2*k-r+1)
+    no. parameters = r×(2×k-r+1)
 where r = density matrix rank and k = order + rank (where order >= 3).
 Evidently, the greater the density matrix rank, the more challenging the minimization task.
 
