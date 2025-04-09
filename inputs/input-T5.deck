@@ -1,0 +1,20 @@
+! density matrix
+time: 0.0
+Theta: 0.45102681179626236 rad ! cos(Theta) = 0.9
+
+! exterior optimization (Nelder-Mead)
+N: 3
+ftol: 1.d-6
+itmax: 3000
+vrange: -1. 1.
+
+! soft restart?
+choice: F
+percent: 5.
+
+! interior optimization
+method: NM
+N: 3000
+ftol: 1.d-6
+itmax: -1
+alpha: 1.

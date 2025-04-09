@@ -1,0 +1,19 @@
+! density matrix
+time: 0.0
+Theta: 0.25 pi
+
+! exterior optimization (Nelder-Mead)
+ftol: 1.d-6
+itmax: 2500
+vrange: 0. 1.
+
+! soft restart?
+choice: F
+percent: 5.
+
+! interior optimization
+method: NM
+N: 2000
+ftol: 1.d-6
+itmax: -1
+alpha: 1.
